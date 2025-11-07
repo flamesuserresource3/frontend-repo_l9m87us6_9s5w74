@@ -1,15 +1,15 @@
-import HeroSection from './components/HeroSection';
-import AboutSection from './components/AboutSection';
-import EventsSection from './components/EventsSection';
-import AfterglowSection from './components/AfterglowSection';
+import GalaxyHero from './components/GalaxyHero';
+import ConstellationAbout from './components/ConstellationAbout';
+import SolarEvents from './components/SolarEvents';
+import NebulaGallery from './components/NebulaGallery';
 
 export default function App() {
   return (
     <div className="h-screen snap-y snap-mandatory overflow-y-scroll scroll-smooth">
-      <HeroSection />
-      <AboutSection />
-      <EventsSection />
-      <AfterglowSection />
+      <GalaxyHero />
+      <ConstellationAbout />
+      <SolarEvents />
+      <NebulaGallery />
     </div>
   );
 }
